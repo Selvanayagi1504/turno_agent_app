@@ -11,3 +11,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.box-block{
+  display: block !important;
+}
+
+@media(max-width: 768px){
+  .css-ige1w{
+    width: 100% !important;
+  }
+  .MuiBox-root{
+    overflow: hidden;
+  }
+  .css-1hsz34s-MuiDrawer-docked{
+    width: 100% !important;
+  }
+  .box-block{
+    display: flex !important;
+    gap: 6px;
+  }
+}
+
+
+
+.error{
+  color: red;
+}
+
+
+
+
+.Head_text_form{
+  font-size: 24px;
+  padding: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+} 
+
+.css-t3z187-MuiPaper-root-MuiCard-root{
+  min-width: unset;
+  padding: 0px 10px;
+}
+
+.name{
+  font-size: 18px;
+  margin-right: 24px;
+  color: #eb4769;
+}
+
+.No-record{
+  font-size: 24px;
+  text-align: center;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #eb4769 !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #eb4769 !important;
+  
+}
+.MuiOutlinedInput-root{
+  border-radius: 6px !important;
+}
+
+.MuiButton-root{
+  background-color: #eb4769;
+}
+
+.MuiButton-root:hover{
+  background-color: #eb4769 !important;
+}
+
+.pt-3{
+  padding-top: 20px;
+}
+.pb-3{
+  padding-bottom: 20px;
+}
+
+.MuiFormControl-root.css-e363es-MuiFormControl-root{
+  display: block;
+  margin: unset;
+  padding: unset;
+  margin-top: 10px;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+  width: 100%;
+}
+
+.Edit-details-main{
+  display: block;
+  flex-direction: column;
+  width: 95%;
+}
+
+.MuiInputAdornment-positionStart {
+  margin-right: 0px !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+  padding-right: unset !important;
+}
+@media(max-width: 500px){
+  .Edit-details-main {
+    display: block;
+    flex-direction: column;
+    width: 83%;
+  }
+}

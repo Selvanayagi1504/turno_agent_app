@@ -1,0 +1,1 @@
+export const APP_THEME_COLOR='#eb4769'
