@@ -13,7 +13,6 @@ export const HomeWelcome = () => {
             }
         }
         if(data.length > 0){
-            navigate('/home/check-eligibility');
         }
         else{
             navigate('/login');

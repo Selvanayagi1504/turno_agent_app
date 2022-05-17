@@ -9,7 +9,7 @@ export const LeadsListMain = () => {
 
     return (
         <Box sx={{ display: 'flex' }}>
-            {CheckAdmin().toLowerCase() !== "Admin" ? <DrawerComponent /> : <DrawerComponentAdmin />}
+            {CheckAdmin().toLowerCase() !== "admin" ? <DrawerComponent /> : <DrawerComponentAdmin />}
             <main>
                 <div className="app-bar-margin-top">
                     <LeadsList />

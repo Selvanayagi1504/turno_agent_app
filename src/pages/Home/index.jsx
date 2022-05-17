@@ -9,7 +9,7 @@ export const Home = () => {
     
     return (
         <Box sx={{ display: 'flex' }}>
-            {CheckAdmin().toLocaleLowerCase !== "Admin" ? <DrawerComponent /> : <DrawerComponentAdmin /> }
+            {CheckAdmin().toLowerCase() !== "admin" ? <DrawerComponent /> : <DrawerComponentAdmin /> }
             <main>
                 <div className="app-bar-margin-top">
                     <HomeWelcome />
